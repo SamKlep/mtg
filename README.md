@@ -1,6 +1,6 @@
 # Magic the Gathering
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project utilizes the [Magic the Gathering API](https://docs.magicthegathering.io/) and is built with [React](https://reactjs.org/). Styled using [React Bootstrap](https://react-bootstrap.netlify.app/)
 
 ## Available Scripts
 
