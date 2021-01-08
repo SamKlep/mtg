@@ -4,6 +4,7 @@ import Header from './components/Header'
 import Footer from './components/Footer'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import ListItemScreen from './screens/ListItemScreen'
+import CardsScreen from './screens/CardsScreen'
 
 function App() {
   return (
@@ -11,9 +12,10 @@ function App() {
       <Header />
       <Switch>
         <Route path='/' component={HomeScreen} exact />
+        <Route path='/cards' component={CardsScreen} exact />
         <Route path='/cards/:id' component={ListItemScreen} />
-        <Footer />
       </Switch>
+      <Footer />
     </Router>
   )
 }

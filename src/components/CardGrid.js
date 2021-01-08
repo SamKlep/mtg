@@ -27,8 +27,8 @@ const CardGrid = () => {
 
   return (
     <div>
-      <Jumbotron fluid>
-        <h1>Magic the Gathering</h1>
+      <Jumbotron className='text-center' fluid>
+        <h1 className='display-4'>Cards</h1>
       </Jumbotron>
       <Container>
         <Row>

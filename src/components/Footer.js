@@ -5,12 +5,9 @@ const Footer = () => {
   return (
     <div>
       <Nav defaultActiveKey='/home' className='flex-column text-center'>
-        <Nav.Link href='/home'>Active</Nav.Link>
-        <Nav.Link eventKey='link-1'>Link</Nav.Link>
-        <Nav.Link eventKey='link-2'>Link</Nav.Link>
-        <Nav.Link eventKey='disabled' disabled>
-          Disabled
-        </Nav.Link>
+        <Nav.Link href='/'>Home</Nav.Link>
+        <Nav.Link href='/history'>History</Nav.Link>
+        <Nav.Link href='/cards'>Cards</Nav.Link>
       </Nav>
     </div>
   )
