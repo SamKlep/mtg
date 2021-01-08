@@ -4,11 +4,11 @@ import { LinkContainer } from 'react-router-bootstrap'
 const HomeScreen = () => {
   return (
     <div>
-      <Jumbotron className='text-center jumbo-main' fluid></Jumbotron>
+      <Jumbotron className='text-center bg-white jumbo-main' fluid></Jumbotron>
       <Container>
         <Row>
           <Col className='text-center'>
-            <h1>Welcome Wizards and Spirit Invokers</h1>
+            <h1>Welcome Wizards of the Coast</h1>
             <p className='lead'>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
               nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi.
